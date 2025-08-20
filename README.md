@@ -1,2 +1,3 @@
-Noorjehan's first website  program.
-hello world!
+
+    a) Type nslookup in terminal
+    b) Check DNS IP Address. 
