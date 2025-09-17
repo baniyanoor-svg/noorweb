@@ -1,0 +1,73 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Complete Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <!-- Username -->
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" placeholder="Enter username" required><br><br>
+    
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+    
+    <!-- Confirm Password -->
+    <label for="confirm">Confirm Password:</label><br>
+    <input type="password" id="confirm" name="confirm" placeholder="Re-enter password" required><br><br>
+    
+    <!-- Code -->
+    <label for="code">Code:</label><br>
+    <input type="text" id="code" name="code" placeholder="Enter code (if any)"><br><br>
+    
+    <!-- Role -->
+    <label for="role">Select Role:</label><br>
+    <select id="role" name="role" required>
+      <option value="">--Select--</option>
+      <option value="user">User</option>
+      <option value="admin">Admin</option>
+      <option value="guest">Guest</option>
+    </select><br><br>
+    
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+    
+    <!-- Country -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">--Select Country--</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="australia">Australia</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    
+    <!-- Courses -->
+    <label>Courses Interested In:</label><br>
+    <input type="checkbox" id="c" name="course" value="c">
+    <label for="c">C Programming</label><br>
+    <input type="checkbox" id="cpp" name="course" value="cpp">
+    <label for="cpp">C++</label><br>
+    <input type="checkbox" id="java" name="course" value="java">
+    <label for="java">Java</label><br>
+    <input type="checkbox" id="web" name="course" value="web">
+    <label for="web">Web Development</label><br><br>
+    
+    <!-- Submit -->
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
+[
